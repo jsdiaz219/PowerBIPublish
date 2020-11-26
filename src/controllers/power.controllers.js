@@ -1,5 +1,5 @@
 const getVentas = (req, res, next) =>{
-    res.send('<iframe width="1300" height="660" src="https://app.powerbi.com/reportEmbed?reportId=725950f5-cc8d-4d98-aa40-79ce9929fbb0&autoAuth=true&ctid=0417ccb0-9706-4d62-8445-fde88422fa2a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXBhYXMtMS1zY3VzLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameborder="0" allowFullScreen="true"></iframe>')
+    res.send('<iframe width="1300" height="660" src="https://app.powerbi.com/view?r=eyJrIjoiZDgzNmUwODQtMzZlNi00NTM1LWE0MDEtMmMyNzdjODIzZTYzIiwidCI6IjA0MTdjY2IwLTk3MDYtNGQ2Mi04NDQ1LWZkZTg4NDIyZmEyYSJ9&pageName=ReportSectione2b45ca009d8e18f309b" frameborder="0" allowFullScreen="true"></iframe>')
 }
 
 const postVenta = (req, res, next) => {
