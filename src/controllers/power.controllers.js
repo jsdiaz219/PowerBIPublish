@@ -10,8 +10,8 @@ const homePage = (req, res, next) => {
     res.send(view)
 }
 
-const view ='<div><form method="get" action="/ventas"><button style="width: 30px; height: 20px" type="submit">Ventas</form></div>'+
-            '<div><form method="get" action="/postventa"><button style="width: 30px; height: 20px" type="submit">Postventas</form></div>'
+const view ='<div><form method="get" action="/ventas"><button style="width: 200px; height: 80px" type="submit">Ventas</form></div>'+
+            '<div><form method="get" action="/postventa"><button style="width: 200px; height: 80px" type="submit">Postventas</form></div>'
 
 module.exports = {
     getVentas,
